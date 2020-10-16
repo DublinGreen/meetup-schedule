@@ -1,4 +1,4 @@
-# meetup-schedule
+# meetup-schedule (Solution)
 meetup schedule solution with php
 
 # Problem
