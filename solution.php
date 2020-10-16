@@ -13,11 +13,6 @@
 function countMeetings($firstDay, $lastDay) {
     // Write your code here    
     if(!empty($firstDay) && !empty($lastDay)){
-        //print_r($firstDay);
-        //print_r($lastDay);
-        //echo("firstDay Count : " . count($firstDay));
-        //echo("lastDay Count : " . count($lastDay));
-
         $result = array_unique(array_merge($firstDay, $lastDay));
         return count($result);        
     }else{
